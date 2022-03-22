@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 375px;
+    height:fit-content;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 3px solid #00853B;
+    box-shadow: 0px 0px 10px black;
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+.text1{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 50px;
+}
+.text2{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 16px;
+}
+
+form {
+    margin-top: 0%;
+    padding: 3%;
+}
+
+.div_input {
+    display: flex;
+    justify-content: center;
+}
+
+.name input {
+    width: 100%;
+}    
+
+.lastname {
+    margin-top: 4%;
+}
+
+.lastname input {
+    width: 100%;
+}
+
+.email {
+    margin-top: 4%;
+}
+
+.email input {
+    width: 100%;
+}
+
+.birth {
+    margin-top: 4%;
+}
+
+.birth input {
+    width: 61.5%;
+}
+
+.question {
+    margin-top: 8%;
+}
+
+.question_inputs {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.level {
+    margin-top: 4%;
+}
+
+.level select{
+    margin-top: 1%;
+}
+
+.technologies {
+    margin-top: 4%;
+}
+
+.technologies_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.technologies_box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies_box2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies_box3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience {
+    margin-top: 4%;
+}
+
+.box_experience {
+    display: flex;
+    justify-content: center;
+}
+
+.experience textarea {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    
+}
+
+.button input {
+    width: 100px;
+    height: 25px;
+    background-color: #5CB85C;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(87, 86, 86);
+}
+
+.button input:hover {
+    background-color: #007032;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+
+footer a{
+    text-decoration: none;
+}
