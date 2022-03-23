@@ -15,12 +15,12 @@ header {
 }
 
 .text1{
-    margin-top: 3%;
+    margin-top: 5px;
     text-align: center;
     font-size: 50px;
 }
 .text2{
-    margin-top: 5%;
+    margin-top: 15px;
     text-align: center;
     font-size: 16px;
 }
@@ -41,19 +41,53 @@ header {
     align-items: center;
 }
 
-.div1 {
-    width: 300px;
-    height: 40px;
-    background-color: yellowgreen;
+.decl-defesa {
+    width: 345px;
+    height: 50px;
+    margin-top: 15px;
+    padding-top: 7px;
+
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    border-radius: 5px;
+    background-color: #00853B;
+    box-shadow: 0px 0px 2px black;
+    text-shadow: 0px 0px 3px black;
 }
 
+.decl-defesa:hover {
+    background-color: #fff34b;
+    color: black;
+    box-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 0.5px black;
+}
+
+.decl-defesa-alert {
+    background-color: rgb(255, 94, 0);
+}
+
+.decl-defesa-alert:hover {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    box-shadow: 0px 0px 2px black;
+    text-shadow: 0px 0px 3px black;
+}
+
+.text3{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+}
 
 footer {
     margin-top: 30px;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
-    color: #000;
+    color: black;
 }
 
 footer a{
