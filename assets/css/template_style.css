@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 990px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: E5E5E5;
+}
+
+/* ---------- */
+header {
+    color: white;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header {
+    padding-bottom: 1%;
+}
+
+.title1{
+    text-align: center;
+    font-size: 40px;
+}
+.title2{
+    text-align: center;
+    font-size: 27px;
+}
+.title3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+/* ---------- */
+main {
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+.main_image {
+    border-radius: 10px;
+    background-image: url('../images/senna.jpg');
+    width: 990px;
+    height: 658px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text1 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text2 {
+    margin-top: 2%;
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 50px;
+}
+
+.text2 a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.text2 a:hover {
+    text-decoration: underline;
+}
+
+.text3 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text4 {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.text4 ul {
+    margin: 0;
+}
+
+.text5 {
+    margin-top: 0;
+}
+
+.text5_more {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text5 .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.text5 .links a{
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.text5 .links a:hover {
+    text-decoration: underline;
+}
+
+.images_container {
+    margin-top: 5%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.images_text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 180px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+/* ---------- */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.footer_text {
+    font-size: 15px;
+}
+
+.footer_text a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.footer_text a:hover {
+    text-decoration: underline;
+}
