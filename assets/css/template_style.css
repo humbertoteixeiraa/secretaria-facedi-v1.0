@@ -45,7 +45,6 @@ main {
 }
 
 .text1 {
-    margin-top: 2%;
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
@@ -109,6 +108,7 @@ main {
 
 .others {
     margin-top: 20px;
+    text-align: center;
 
     display: flex;
     flex-direction: column;
@@ -133,14 +133,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.text-contacts {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
 }
 
 .ct1 {
