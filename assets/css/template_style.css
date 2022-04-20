@@ -135,6 +135,10 @@ main {
     margin-bottom: 12px;
 }
 
+.contacts1 {
+    white-space: nowrap;
+}
+
 .contacts1 .text1 {
     margin-top: 17px;
 }
@@ -147,6 +151,7 @@ main {
 
 .contacts2 {
     margin-left: 15px;
+    white-space: nowrap;
 }
 
 .contacts2 .text1 {
