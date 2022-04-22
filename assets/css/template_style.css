@@ -101,6 +101,7 @@ main {
 }
 
 .legislation a span:hover {
+    color: #337ab7;
     text-decoration: underline;
 }
 
@@ -123,6 +124,7 @@ main {
 }
 
 .others a span:hover {
+    color: #337ab7;
     text-decoration: underline;
 }
 
@@ -186,7 +188,7 @@ footer {
 }
 
 .footer_text {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .footer_text a {
