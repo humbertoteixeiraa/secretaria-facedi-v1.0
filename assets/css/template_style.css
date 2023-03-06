@@ -199,3 +199,18 @@ footer {
 .footer_text a:hover {
     text-decoration: underline;
 }
+
+
+/*declarations.html*/
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+.button a img {
+    width: 35px;
+    height: 35px;
+}
